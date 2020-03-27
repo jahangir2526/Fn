@@ -1,4 +1,4 @@
-# Build, Deploy and Run a Java Function 
+# Build, Deploy and Run a Java Function (Local Fn Server)
 
 This is used to demonstrate how to build, deploy and run java function in a local Fn Server. All the steps and commands have been collected from Fn Documentations.
 
