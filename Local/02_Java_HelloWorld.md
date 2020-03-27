@@ -1,6 +1,6 @@
-# Build, Deploy and Run a Java Function
+# Build, Deploy and Run a Java Function 
 
-This is used to demonstrate how to build, deploy and run java function in a local Fn Server
+This is used to demonstrate how to build, deploy and run java function in a local Fn Server. All the steps and commands have been collected from Fn Documentations.
 
 Below are the steps to follow:
     
@@ -27,12 +27,12 @@ Below are the steps to follow:
      
 ## 7. Invoke the function in command line
     fn invoke java-app javafn
-    echo -n 'Bob' | fn invoke java-app javafn
+    echo -n 'Jahangir' | fn invoke java-app javafn
 
 ## 8. Invoke the function using cURL
     fn inspect function java-app javafn
-    curl -X "POST" -H "Content-Type: application/json" http://localhost:8080/invoke/01DK9XJSCXNG8G00GZJ0000002
+    curl -X "POST" -H "Content-Type: application/json" http://localhost:8080/invoke/XXXXXXXXXXXXXXXXXXXXX
 
 ## 9. You can pass JSON data to our function and get the value of name passed to the function back.
-    curl -X "POST" -H "Content-Type: application/json" -d '{"name":"Bob"}' http://localhost:8080/invoke/01DK9XJSCXNG8G00GZJ0000002
+    curl -X "POST" -H "Content-Type: application/json" -d '{"name":"Jahangir"}' http://localhost:8080/invoke/XXXXXXXXX
 
